@@ -37,6 +37,10 @@
                     &#183;
                 {% endfor %}
             {% endif %}
+            <a href="{{ config.extra.social.mail }}">mail</a>
+            &#183;
+            <a href="{{ config.extra.social.github }}">github</a>
+            &#183;
             <a href="{{ config.base_url }}">
                 {{ config.extra.home | default(value="home") }}
             </a>

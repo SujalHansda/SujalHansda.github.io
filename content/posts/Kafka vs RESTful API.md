@@ -5,7 +5,7 @@ date = 2023-06-10
 tags = ["kafka", "api"]
 authors = ["Sujal Hansda"] 
 +++
-<img src="https://svn.apache.org/repos/asf/kafka/site/logos/originals/png/WIDE%20-%20Black%20on%20Transparent.png" alt="Image" style="width: 60%;">
+<img src="https://svn.apache.org/repos/asf/kafka/site/logos/originals/png/WIDE%20-%20White%20on%20Transparent.png" alt="Image" style="width: 60%;">
 
 When I was an intern, a senior developer assigned me to implement kafka in microservices.
 At first I thought of it as a usual library that automate something. Kafka is a messaging service used to communicate between microservices. But the catch was, I have already implemented communication using Feign Client ( used in Spring Boot microservices). I used to call endpoints of other microservices to fetch and modify data. So what's the benefit of using Kafka. This ticked my mind for a while but after spending time on fourms and documentations I finally understood.
