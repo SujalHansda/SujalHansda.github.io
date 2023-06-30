@@ -26,7 +26,7 @@ home = "home"
 sam_menu = [
     { text = "posts", link = "/posts" },
     { text = "about", link = "/about" },
-    { text = "resume", link = "/resume.pdf" }
+    { text = "resume", link = "https://drive.google.com/file/d/1auzOYHzKMqxkojTFvYePg1EmdtTlDqb3/view?usp=sharing" }
 ]
 
 sam_bottom_menu = true
