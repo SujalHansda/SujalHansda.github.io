@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="chrome=1">
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="referrer" content="no-referrer">
+
+        <link rel="stylesheet" href="https://sujalhansda.github.io/fonts.css">
+        <link rel="stylesheet" href="https://sujalhansda.github.io/style.css">
+
+        <title>
+    Why use Kafka
+</title>
+
+        
+    </head>
+    <body>
+        
+    <div class="wrap">
+        <div class="section" id="title">
+            
+    Why use Kafka
+
+        </div>
+        <div class="section" id="sections">
+            
+        </div>
+        <div class="section" id="content">
+            
+    
+        
+            
+    
+    Sat Jun 10, 2023
+
+        
+        
+            
+                &#183; 239 words
+            
+        
+        
+            
+            
+                &#183; 2 min
+            
+        
+        
+            <div class="tag-container">
+                Tags :&nbsp;
+                
+                    <span class="tag">
+                        <a href="https://sujalhansda.github.io/tags/kafka/">
+                            kafka
+                        </a>
+                    </span>
+                
+                    <span class="tag">
+                        <a href="https://sujalhansda.github.io/tags/api/">
+                            api
+                        </a>
+                    </span>
+                
+            </div>
+        
+        
+            <div class="tag-container">
+                Authors :&nbsp;
+                
+                    <span class="tag">
+                        <a href="https://sujalhansda.github.io/authors/sujal-hansda/">
+                            Sujal Hansda
+                        </a>
+                    </span>
+                
+            </div>
+        
+        <hr/>
+    
+    <img src="https://svn.apache.org/repos/asf/kafka/site/logos/originals/png/WIDE%20-%20White%20on%20Transparent.png" alt="Image" style="width: 60%;">
+<p>When I was an intern, a senior developer assigned me to implement kafka in microservices.
+At first I thought of it as a usual library that automate something. Kafka is a messaging service used to communicate between microservices. But the catch was, I have already implemented communication using Feign Client ( used in Spring Boot microservices). I used to call endpoints of other microservices to fetch and modify data. So what's the benefit of using Kafka. This ticked my mind for a while but after spending time on fourms and documentations I finally understood.</p>
+<table><thead><tr><th>Kafka</th><th>REST</th></tr></thead><tbody>
+<tr><td>Publish &amp; Subscribe (just process the pipeline, will notify once the job is done)</td><td>Request &amp; Await response (on-demand)</td></tr>
+<tr><td>Publish once - Subscribe n times (by n components)</td><td>Request once, get the response once. Deal over</td></tr>
+<tr><td>Data is stored in topic. Seek back &amp; forth (offsets) whenever you want till the topic is retained</td><td>Once the response is over, it is over. Manually employ a database to store the processed data</td></tr>
+<tr><td>The one who makes the request typically is not interested in a response (except the response that if the message is sent)</td><td>I am making the request means I typically expect a response (not just a response that you have received the request, but something that is meaningful to me, some computed result for example!)</td></tr>
+</tbody></table>
+
+
+        </div>
+        
+    <div class="section bottom-menu">
+        <hr/>
+        <p>
+            
+                
+                    <a href="&#x2F;posts">posts</a>
+                    &#183;
+                
+                    <a href="&#x2F;about">about</a>
+                    &#183;
+                
+                    <a href="https:&#x2F;&#x2F;drive.google.com&#x2F;file&#x2F;d&#x2F;1auzOYHzKMqxkojTFvYePg1EmdtTlDqb3&#x2F;view?usp=sharing">resume</a>
+                    &#183;
+                
+            
+            <a href="mailto:sujal.hansda.ph@gmail.com">mail</a>
+            &#183;
+            <a href="https:&#x2F;&#x2F;github.com&#x2F;SujalHansda">github</a>
+            &#183;
+            <a href="https:&#x2F;&#x2F;sujalhansda.github.io">
+                home
+            </a>
+        </p>
+    </div>
+
+        
+    
+        <div class="section footer">
+            Out Of Time
+        </div>
+    
+
+    </div>
+
+    </body>
+</html>
